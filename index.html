@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IntelliSQL</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h2>IntelliSQL System</h2>
+
+<form method="POST">
+
+<input type="text" name="query"
+placeholder="Ask in English..."
+required>
+
+<button type="submit">Run</button>
+
+</form>
+
+<h3>Generated SQL</h3>
+<p>{{ sql }}</p>
+
+<h3>Result</h3>
+<p>{{ result }}</p>
+
+</body>
+</html>
